@@ -21,7 +21,9 @@ Follow these steps to set up the project locally.
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (Ensure you have Node.js installed)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) (The package manager for Node.js)
+- [npm](https://www.npmjs.com/) (The package manager for Node.js)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) (Used to easily emulate the app)
+- [Android Studio](https://developer.android.com/studio) (For running the app on an Android emulator)
 
 ### Installation
 
@@ -51,10 +53,23 @@ To start the app on your local machine:
 npm start
 ```
 
+### Running on Android Emulator
+
+1. Install [Android Studio](https://developer.android.com/studio).
+2. Follow the instructions to set up an Android emulator.
+3. Start the emulator in Android Studio.
+4. Run the app with Expo by executing:
+
+```bash
+npm start
+```
+
+5. Choose the option to run the app on the Android emulator.
+
 ## API Reference
 
 This project uses the [Deezer API](https://developers.deezer.com/api). You can find more information on how to use this API in their [documentation](https://developers.deezer.com/api).
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](./LICENSE).
