@@ -54,3 +54,7 @@ npm start
 ## API Reference
 
 This project uses the [Deezer API](https://developers.deezer.com/api). You can find more information on how to use this API in their [documentation](https://developers.deezer.com/api).
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
